@@ -6,19 +6,25 @@
 
 header {
   height: 50px;
-  width: auto;
   background-color: #FF9A4B;
 }
 
 main {
   margin: 50px;
   width: 960px;
+  display: flex;
 }
 
 .main-visual {
   width: 300px;
-  display: inline-block;
+  margin-right: 30px;
+  padding: 10px;
+  position: relative;
   background-color: #EEEEEE;
+}
+
+.main-visual:last-child {
+  margin-right: 0;
 }
 
 .visual-img1 {
@@ -26,7 +32,6 @@ main {
   background-size: cover;
   background-position: bottom;
   height: 150px;
-  margin: 10px 10px 0px 10px;
 }
 
 .visual-img2 {
@@ -34,7 +39,6 @@ main {
   background-size: cover;
   background-position: bottom;
   height: 150px;
-  margin: 10px 10px 0px 10px;
 }
 
 .visual-img3 {
@@ -42,7 +46,17 @@ main {
   background-size: cover;
   background-position: bottom;
   height: 150px;
-  margin: 10px 10px 0px 10px;
+}
+
+.visual-num {
+  background-color: #FF9A4B;
+  position: absolute;top: 0;left: 0;
+  color: white;
+}
+
+.visual-title {
+  margin-top: 15px;
+  margin-bottom: 5px;
 }
 
 footer {
