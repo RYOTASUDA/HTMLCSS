@@ -64,3 +64,27 @@ footer {
   width: auto;
   background-color: #AAAAAA;
 }
+
+@media screen and (max-width: 768px) {
+  header {
+    width: 100%;
+  }
+
+  main {
+    width: 90%;
+    display: block;
+    margin: 50px auto;
+  }
+
+  .main-visual {
+    margin-bottom: 20px;
+  }
+
+  .main-visual:last-child {
+    margin-bottom: 0;
+  }
+
+  footer {
+    width: 100%;
+  }
+}
